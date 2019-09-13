@@ -4,8 +4,9 @@ using System.Security;
 
 namespace SecureStringCharacters.Tests
 {
-    public class Tests
+    internal class GenericTests
     {
+        [Test]
         public void GetChar_ThrowsException_ForNullString()
         {
             SecureString str = null;
