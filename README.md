@@ -1,7 +1,7 @@
-## What
+### What
 This .NET Standard library allows you to read individual characters in a SecureString
 
-## Usage
+### Usage
 Import namespace...
 ```c#
 using SecureStringCharacters;
@@ -12,10 +12,10 @@ using SecureStringCharacters;
 mySecureString.GetChar(0);
 ```
 
-## Installation
+### Installation
 TODO
 
-## Bonus helper methods
+### Bonus helper methods
 Performing a synchronous `Action` on each character (e.g.: `Console.WriteLine`):
 ```c#
 mySecureString.ForEachChar(Console.WriteLine);
@@ -29,5 +29,5 @@ using (var streamWriter = new StreamWriter(...))
 }
 ```
 
-## Contributing
+### Contributing
 Pull requests are welcome. Please ensure the test suite passes before opening a PR.
