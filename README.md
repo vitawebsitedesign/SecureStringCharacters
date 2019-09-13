@@ -3,6 +3,12 @@ This .NET Standard library allows you to read individual characters in a `Secure
 
 https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 
+### Install
+```bash
+Install-Package MichaelNguyen.Utility.SecureStringCharacters
+```
+https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
+
 ### Usage
 Import namespace...
 ```c#
@@ -13,12 +19,6 @@ using SecureStringCharacters;
 ```c#
 mySecureString.GetChar(0);
 ```
-
-### Installation
-```bash
-Install-Package MichaelNguyen.Utility.SecureStringCharacters
-```
-https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 
 ### Helpers
 Performing a synchronous `Action` on each character (e.g.: `Console.WriteLine`):
