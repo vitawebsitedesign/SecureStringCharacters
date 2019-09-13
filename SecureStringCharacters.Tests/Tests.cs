@@ -1,9 +1,8 @@
 using NUnit.Framework;
-using SecureStringCharacters;
 using System;
 using System.Security;
 
-namespace Tests
+namespace SecureStringCharacters.Tests
 {
     public class Tests
     {
