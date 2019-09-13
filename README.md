@@ -1,6 +1,8 @@
 ### What
 This .NET Standard library allows you to read individual characters in a `SecureString`
 
+https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
+
 ### Usage
 Import namespace...
 ```c#
