@@ -19,6 +19,8 @@ using SecureStringCharacters;
 mySecureString.GetChar(0);
 ```
 
+This repo contains an "example usage" project.
+
 ### Helpers
 Performing a synchronous `Action` on each character (e.g.: `Console.WriteLine`):
 ```c#
