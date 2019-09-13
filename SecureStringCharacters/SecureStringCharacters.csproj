@@ -1,7 +1,24 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>MichaelNguyen.Utility.SecureStringCharacters</PackageId>
+    <Authors>Michael Nguyen</Authors>
+    <Description>Allows you to read individual characters in a SecureString</Description>
+    <Copyright></Copyright>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/vitawebsitedesign/SecureStringCharacters</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/vitawebsitedesign/SecureStringCharacters</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>securestring secure string read individual char chars characters</PackageTags>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
   </PropertyGroup>
 
 </Project>
