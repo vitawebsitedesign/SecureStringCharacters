@@ -30,7 +30,9 @@ Performing an async `Func` on each character (e.g.: `StreamWriter.WriteAsync`):
 ```c#
 using (var streamWriter = new StreamWriter(...))
 {
-  mySecureString.ForEachCharAsync(streamWriter.WriteAsync);
+  await mySecureString.ForEachCharAsync(async c =>
+    await streamWriter.WriteAsync((char)c)
+  );
 }
 ```
 
