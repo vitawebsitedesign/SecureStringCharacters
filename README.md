@@ -7,7 +7,6 @@ https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 ```bash
 Install-Package MichaelNguyen.Utility.SecureStringCharacters
 ```
-https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 
 ### Usage
 Import namespace...
