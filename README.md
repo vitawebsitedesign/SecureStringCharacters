@@ -13,7 +13,10 @@ mySecureString.GetChar(0);
 ```
 
 ### Installation
-TODO
+https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
+```bash
+Install-Package MichaelNguyen.Utility.SecureStringCharacters
+```
 
 ### Bonus helper methods
 Performing a synchronous `Action` on each character (e.g.: `Console.WriteLine`):
