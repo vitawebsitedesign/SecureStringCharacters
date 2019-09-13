@@ -1,5 +1,7 @@
 ### What
-This .NET Standard library allows you to read individual characters in a SecureString
+This .NET Standard library allows you to read individual characters in a `SecureString`
+
+https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 
 ### Usage
 Import namespace...
@@ -13,9 +15,12 @@ mySecureString.GetChar(0);
 ```
 
 ### Installation
-TODO
+```bash
+Install-Package MichaelNguyen.Utility.SecureStringCharacters
+```
+https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 
-### Bonus helper methods
+### Helpers
 Performing a synchronous `Action` on each character (e.g.: `Console.WriteLine`):
 ```c#
 mySecureString.ForEachChar(Console.WriteLine);
