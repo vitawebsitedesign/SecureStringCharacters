@@ -18,7 +18,7 @@ Install-Package MichaelNguyen.Utility.SecureStringCharacters
 ```
 https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
 
-### Bonus helper methods
+### Helpers
 Performing a synchronous `Action` on each character (e.g.: `Console.WriteLine`):
 ```c#
 mySecureString.ForEachChar(Console.WriteLine);
