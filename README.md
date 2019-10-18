@@ -1,7 +1,7 @@
 ### What
 This .NET Standard library allows you to read individual characters in a `SecureString`
 
-https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/
+The compiled Nuget package has been made available [on Nuget.org](https://www.nuget.org/packages/MichaelNguyen.Utility.SecureStringCharacters/)
 
 ### Install
 ```bash
